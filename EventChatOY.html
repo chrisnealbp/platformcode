@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <title>Event Chat</title>
+ </head>
+ <body>
+
+<div id="embedded-feed" style="height:800px;width:400px;"></div>
+<script type="text/javascript" src="https://s0-azure.assets-yammer.com/assets/platform_embed.js"></script>
+<script type="text/javascript">
+yam.connect.embedFeed({
+  container: "#embedded-feed",
+  network: "blueprism.com",
+  feedType: "group",
+  feedId: "50518736896",
+    config: {
+      promptText: "Questions or Comments?..."
+}
+});
+</script>
+
+
+ </body>
+</html>
